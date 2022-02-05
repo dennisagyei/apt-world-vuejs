@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/HomePage.vue'
-import About from '../views/About.vue'
-import SignUp from '../views/SignUp.vue'
+import Login from '../views/LoginPage.vue'
+import Admin from '../views/AdminPage.vue'
 import Team from '../views/Team.vue'
 import Projects from '../views/Projects.vue'
 import PlantShop from '../views/PlantShop.vue'
@@ -18,9 +18,15 @@ const routes = [
   },
 
   {
-    path: '/plant',
-    name: 'PlantShop',
-    component : PlantShop
+    path: '/login',
+    name: 'Login',
+    component : Login
+  },
+
+  {
+    path: '/admin',
+    name: 'Admin',
+    component : Admin
   }
 ]
 

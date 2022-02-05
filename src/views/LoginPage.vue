@@ -1,0 +1,38 @@
+<template>
+    <v-parallax dark src="home-5-bg.jpg" height="750">
+        <v-row justify="center" align="center">
+            <v-col cols="4">
+                <v-card class="mx-auto" max-width="344" >
+                    <v-card-text>
+                        <p class="text-h4 text--primary">Sign In</p>
+                        <v-spacer></v-spacer>
+                        <div class="text--primary">
+                            <v-text-field clearable label="Email" placeholder="Email" outlined></v-text-field>
+                        </div>
+                        <div class="text--primary">
+                            <v-text-field label="Password" placeholder="Password" type="password" outlined></v-text-field>
+                        </div>
+                    </v-card-text>
+                    <v-divider></v-divider>
+                    <v-card-actions>
+                        <v-spacer></v-spacer>
+                        <v-btn color="orange" to="/">CANCEL</v-btn>
+                        <v-btn color="orange" to="/admin">SIGN IN</v-btn>
+                        
+                    </v-card-actions>
+                </v-card>
+            </v-col>
+        </v-row>
+    </v-parallax>
+</template>
+
+<script>
+export default {
+    data () {
+        return {
+            show : false,
+            password : 'Password'
+        }
+    }
+}
+</script>

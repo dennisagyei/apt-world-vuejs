@@ -10,11 +10,11 @@
 
 <script>
 
-import HomeNavBar from '@/components/HomeNavBar.vue'
-import HomeMainSection from '@/components/HomeMainSection.vue'
-import HomeServiceSection from '@/components/HomeServiceSection.vue'
-import HomeContactSection from '@/components/HomeContactSection.vue'
-import HomeFooter from '@/components/HomeFooter.vue'
+import HomeNavBar from '@/components/HomePage/HomeNavBar.vue'
+import HomeMainSection from '@/components/HomePage/HomeMainSection.vue'
+import HomeServiceSection from '@/components/HomePage/HomeServiceSection.vue'
+import HomeContactSection from '@/components/HomePage/HomeContactSection.vue'
+import HomeFooter from '@/components/HomePage/HomeFooter.vue'
 
   export default {
    
@@ -25,7 +25,7 @@ import HomeFooter from '@/components/HomeFooter.vue'
     },
 
     components:{
-        HomeNavBar,
+      HomeNavBar,
       HomeMainSection,
       HomeServiceSection,
       HomeContactSection,
