@@ -8,8 +8,16 @@ import VueParticles from 'vue-particles'
 Vue.use(VueParticles)
 
 
+import VueApexCharts from 'vue-apexcharts'
+Vue.use(VueApexCharts)
+Vue.component('apexchart', VueApexCharts)
 
-
+import VueAnalytics from 'vue-analytics';
+// Configuration VueAnalytics
+Vue.use(VueAnalytics, {
+  id: 'UA-44364294-1',
+  router
+});
 
 Vue.config.productionTip = false
 

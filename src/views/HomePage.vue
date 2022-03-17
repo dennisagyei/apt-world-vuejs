@@ -10,6 +10,7 @@
 
 <script>
 
+
 import HomeNavBar from '@/components/HomePage/HomeNavBar.vue'
 import HomeMainSection from '@/components/HomePage/HomeMainSection.vue'
 import HomeServiceSection from '@/components/HomePage/HomeServiceSection.vue'
